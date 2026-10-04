@@ -1,0 +1,43 @@
+{
+  "name": "Wheel Up - Fleet & Finance Hub",
+  "short_name": "Wheel Up",
+  "description": "Fleet & Cab Business Dashboard for tracking revenue, expenses, drivers, and owners.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f0f1a",
+  "theme_color": "#6c63ff",
+  "lang": "en",
+  "categories": ["business", "finance"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Log Revenue",
+      "short_name": "Revenue",
+      "description": "Quickly log a revenue receipt",
+      "url": "./index.html#log-revenue",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Log Expense",
+      "short_name": "Expense",
+      "description": "Quickly log an expense",
+      "url": "./index.html#log-expense",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
